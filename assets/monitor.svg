@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 400" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <defs>
+    <linearGradient id="bezel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3c4454"/>
+      <stop offset="0.12" stop-color="#232a36"/>
+      <stop offset="1" stop-color="#12161d"/>
+    </linearGradient>
+    <linearGradient id="barg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c98a5a"/>
+      <stop offset="1" stop-color="#6ab9ff"/>
+    </linearGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" opacity="0.022"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="838" height="398" rx="20" fill="url(#bezel)" stroke="#4a5260" stroke-width="1.4"/>
+  <rect x="14" y="14" width="812" height="372" rx="12" fill="#0a0e16" stroke="#1b2129" stroke-width="1.2"/>
+  <rect x="14" y="14" width="812" height="372" rx="12" fill="url(#scan)"/>
+  <path d="M34 30 h-8 v8" stroke="#2a3542" stroke-width="1.4" fill="none"/>
+  <path d="M806 30 h8 v8" stroke="#2a3542" stroke-width="1.4" fill="none"/>
+  <path d="M34 370 h-8 v-8" stroke="#2a3542" stroke-width="1.4" fill="none"/>
+  <path d="M806 370 h8 v-8" stroke="#2a3542" stroke-width="1.4" fill="none"/>
+  <circle cx="46" cy="47" r="4" fill="#3fb950">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="60" y="52" font-size="13" letter-spacing="6" fill="#6ab9ff">SYS://MONITOR</text>
+  <text x="248" y="52" font-size="10" letter-spacing="3" fill="#7d8590">[ ALL-TIME &#183; SINCE 2021 ]</text>
+  <text x="800" y="52" text-anchor="end" font-size="11" letter-spacing="2" fill="#7d8590">user: bronxdev-sys</text>
+  <line x1="36" y1="68" x2="804" y2="68" stroke="#1f2630" stroke-width="1"/>
+  <rect x="46" y="120" width="3.5" height="26" rx="1.7" fill="#c98a5a" opacity="0.9"/>
+  <text x="60" y="108" font-size="10" letter-spacing="3" fill="#7d8590">CONTRIBUTIONS</text>
+  <text x="60" y="142" font-size="30" font-weight="700" fill="#c98a5a">188</text>
+  <rect x="306" y="120" width="3.5" height="26" rx="1.7" fill="#6ab9ff" opacity="0.9"/>
+  <text x="320" y="108" font-size="10" letter-spacing="3" fill="#7d8590">COMMITS</text>
+  <text x="320" y="142" font-size="30" font-weight="700" fill="#6ab9ff">143</text>
+  <rect x="566" y="120" width="3.5" height="26" rx="1.7" fill="#3fb950" opacity="0.9"/>
+  <text x="580" y="108" font-size="10" letter-spacing="3" fill="#7d8590">PULL REQUESTS</text>
+  <text x="580" y="142" font-size="30" font-weight="700" fill="#3fb950">16</text>
+  <rect x="46" y="208" width="3.5" height="26" rx="1.7" fill="#d29922" opacity="0.9"/>
+  <text x="60" y="196" font-size="10" letter-spacing="3" fill="#7d8590">STARS EARNED</text>
+  <text x="60" y="230" font-size="30" font-weight="700" fill="#d29922">13</text>
+  <rect x="306" y="208" width="3.5" height="26" rx="1.7" fill="#79c0ff" opacity="0.9"/>
+  <text x="320" y="196" font-size="10" letter-spacing="3" fill="#7d8590">FOLLOWERS</text>
+  <text x="320" y="230" font-size="30" font-weight="700" fill="#79c0ff">3</text>
+  <rect x="566" y="208" width="3.5" height="26" rx="1.7" fill="#a9c2d8" opacity="0.9"/>
+  <text x="580" y="196" font-size="10" letter-spacing="3" fill="#7d8590">PUBLIC REPOS</text>
+  <text x="580" y="230" font-size="30" font-weight="700" fill="#a9c2d8">9</text>
+  <text x="60" y="280" font-size="10" letter-spacing="3" fill="#7d8590">CONTRIBUTION FEED &#183; LAST 35 DAYS</text>
+  <rect x="60.0" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="80.6" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="101.1" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="121.7" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="142.3" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="162.8" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="183.4" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="204.0" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="224.6" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="245.1" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="265.7" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="286.3" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="306.8" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="327.4" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="348.0" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="368.6" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="389.1" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="409.7" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="430.3" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="450.8" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="471.4" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="492.0" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="512.5" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="533.1" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="553.7" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="574.3" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="594.8" y="352" width="15" height="6" rx="2" fill="url(#barg)"/>
+  <rect x="615.4" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="636.0" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="656.5" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="677.1" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="697.7" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="718.2" y="355" width="15" height="3" rx="2" fill="#1b2430"/>
+  <rect x="738.8" y="352" width="15" height="6" rx="2" fill="url(#barg)"/>
+  <rect x="759.4" y="292" width="15" height="66" rx="2" fill="url(#barg)"/>
+  <line x1="56" y1="358" x2="784" y2="358" stroke="#1f2630" stroke-width="1.2"/>
+  <rect x="0" y="282" width="3" height="76" fill="#6ab9ff" opacity="0.18">
+    <animateTransform attributeName="transform" type="translate" values="60 0; 770 0" dur="7s" repeatCount="indefinite"/>
+  </rect>
+</svg>

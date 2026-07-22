@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 52" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <defs>
+    <linearGradient id="warm" gradientUnits="userSpaceOnUse" x1="405" y1="26" x2="632" y2="26">
+      <stop offset="0" stop-color="#c98a5a" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#c98a5a" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#6ab9ff" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="cold" gradientUnits="userSpaceOnUse" x1="668" y1="26" x2="890" y2="26">
+      <stop offset="0" stop-color="#6ab9ff" stop-opacity="0.7"/>
+      <stop offset="0.75" stop-color="#a9c2d8" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#a9c2d8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <text x="320" y="31" text-anchor="middle" font-size="13" letter-spacing="7" fill="#c98a5a">THE SPARK</text>
+  <text x="980" y="31" text-anchor="middle" font-size="13" letter-spacing="7" fill="#a9c2d8">THE MACHINE</text>
+  <line x1="405" y1="26" x2="632" y2="26" stroke="url(#warm)" stroke-width="1.2"/>
+  <line x1="668" y1="26" x2="890" y2="26" stroke="url(#cold)" stroke-width="1.2"/>
+  <circle cx="650" cy="26" r="3.2" fill="#6ab9ff"/>
+  <circle cx="650" cy="26" r="3" fill="none" stroke="#6ab9ff" stroke-width="1">
+    <animate attributeName="r" values="3;15" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="405" cy="26" r="1.8" fill="#c98a5a" opacity="0.8"/>
+  <circle cx="890" cy="26" r="1.8" fill="#a9c2d8" opacity="0.8"/>
+</svg>
